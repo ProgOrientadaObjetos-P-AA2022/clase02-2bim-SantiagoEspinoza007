@@ -41,5 +41,19 @@ public class EstudianteDistancia extends Estudiante{
     public double obtenerMatriculaDistancia(){
         return matriculaDistancia;
     }
-
+    /*
+    @Override
+    public String toString(){
+        String cadena = String.format("%sNombre: %s\n"
+                + "Apellido: %s\n"
+                + "Identificación: %s\n"
+                + "Edad: %s\n", 
+                nombresEstudiante,
+                apellidosEstudiante,
+                identificacionEstudiante,
+                edadEstudiante);
+        
+        return cadena;
+    }*/
+    
 }

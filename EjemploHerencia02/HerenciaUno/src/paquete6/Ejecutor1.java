@@ -28,6 +28,9 @@ public class Ejecutor1 {
         EstudianteDistancia estDistancia2 = new EstudianteDistancia(nombre,
                 apellido, identificacion, edad);
         
+        estDistancia2.establecerNumeroAsginaturas(10);
+        estDistancia2.establecerCostoAsignatura(50);
+        
         estDistancia2.calcularMatriculaDistancia();
         
         System.out.printf("%s\n", estDistancia2);
